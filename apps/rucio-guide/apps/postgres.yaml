@@ -26,11 +26,11 @@ spec:
       tag: latest
 
     persistence:
-      enabled: false
+      enabled: true
 
     global:
       postgresql:
         auth:
-          username: rucio
-          password: secret
-          database: rucio
+          username: dbuser
+          password: dbpwd
+          database: dbuser
