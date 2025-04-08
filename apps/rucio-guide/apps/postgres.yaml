@@ -32,5 +32,5 @@ spec:
       postgresql:
         auth:
           username: dbuser
-          password: dbpwd
+          password: hellohello
           database: dbuser
