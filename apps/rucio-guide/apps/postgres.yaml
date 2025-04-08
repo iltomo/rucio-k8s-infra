@@ -32,6 +32,6 @@ spec:
     global:
       postgresql:
         auth:
-          username: dbuser
-          password: dbpwd
-          database: dbname
+          username: myuser
+          password: mypassword
+          database: mydb
