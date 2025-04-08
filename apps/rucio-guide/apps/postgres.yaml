@@ -24,7 +24,8 @@ spec:
     image:
       registry: docker.io
       repository: bitnami/postgresql
-      tag: 15
+      #tag: 15
+      tag: latest
 
     persistence:
       enabled: true 
@@ -32,6 +33,6 @@ spec:
     global:
       postgresql:
         auth:
-          username: myuser
-          password: mypassword
-          database: mydb
+          username: rucio
+          password: secret
+          database: rucio
