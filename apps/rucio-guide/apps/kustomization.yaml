@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
   - postgres.yaml
   - postgres-tbwp6.yaml
+  - postgres-01.yaml
+  - postgres-02.yaml
+  - postgres-03.yaml
